@@ -3,6 +3,6 @@ Reproducing and extending Herrera et al. (2020) — ML-based primary particle cl
 Key contributions:
 
 1) Full reproduction of nested CV results across all five classifiers
-2) Feature ablation study revealing Zenith angle as a stronger predictor than total particle count, contradicting the original paper's feature ranking
+2) Feature ablation study revealing model-architecture dependent importance of Zenith angle vs NALLParticles — Zenith outperforms NALL only for the neural network, while distance and kernel-based models strongly prefer NALLParticles
 3) Improved DNN implementation achieving 0.956 accuracy
 4) ROC curve analysis for all classifiers
